@@ -1,24 +1,316 @@
-header {
-  background: #5cb660;
-  color: #fff;
-  padding: 10px 40px; }
-  header nav {
-    display: flex;
-    justify-content: space-between;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column; }
+
+/* 1 - Estilo Header GENERAL-Todas las page */
+.custom-navbar {
+  background-color: #5cb660; }
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #FFFFFF;
+  margin-right: 35px;
+  font-size: 17px; }
+
+/* 2 - Estilo Carousel - INICIO */
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  width: 100%; }
+
+/* 3- Estilo Hero - INICIO */
+.banner-2 {
+  width: 88%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 20px;
+  gap: 40px; }
+
+.banner-2 .imagen-1 {
+  flex: 1; }
+  .banner-2 .imagen-1 img {
+    width: auto;
+    height: 500px;
+    border-radius: 10px; }
+
+.banner-2 .texto-banner-2 {
+  flex: 1; }
+  .banner-2 .texto-banner-2 h1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #5db662;
+    text-align: center; }
+  .banner-2 .texto-banner-2 p {
+    font-weight: 500;
+    line-height: 1.6;
+    font-size: 25px;
+    color: #3b3b3b;
+    text-align: center; }
+
+/* 4- Estilo Productos Destacados - INICIO */
+.productos-destacados {
+  width: 85%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 4px 8px #50505081;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 40px; }
+  .productos-destacados h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 20px; }
+
+.productos-destacados .card {
+  display: inline-block;
+  width: 18rem;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+  .productos-destacados .card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    height: 300px; }
+
+.productos-destacados .card-body {
+  padding: 15px; }
+
+.productos-destacados .card-text {
+  margin-bottom: 10px;
+  color: #555; }
+
+.productos-destacados .card-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 15px; }
+
+.productos-destacados .btn-primary {
+  background-color: #5db662;
+  border-color: #5db662;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none; }
+
+.productos-destacados .btn-primary:hover {
+  background-color: #329c37;
+  border-color: #329c37; }
+
+/* 5- Estilo Seccion 3 - INICIO */
+.app-promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(90deg, #5cb660, #FFF027);
+  color: white; }
+
+.promo-text {
+  max-width: 50%;
+  text-align: center; }
+  .promo-text h2 {
+    font-size: 3rem;
+    margin-bottom: 20px; }
+  .promo-text button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; }
+    .promo-text button:hover {
+      background-color: #f0f0f0; }
+
+.promo-img {
+  display: flex;
+  justify-content: center;
+  flex: 1; }
+  .promo-img img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px; }
+
+/* 6- Estilo Seccion 1 - PRODUCTOS-1 */
+.app-promo2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(90deg, #5cb660, #FFF027);
+  color: white;
+  margin-top: 30px; }
+
+.promo-text2 {
+  max-width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 300px;
+  padding-right: 10px; }
+  .promo-text2 h2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 1.2; }
+
+.promo-img2 {
+  display: flex;
+  justify-content: center;
+  flex: 1; }
+  .promo-img2 img {
+    max-width: 1000px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px; }
+
+/* 7- Estilo Seccion 2 - PRODUCTOS-1 */
+.productos_2 {
+  width: 85%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 4px 8px #50505081;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px; }
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; }
+
+.product-grid .card {
+  display: inline-block;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+  .product-grid .card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    height: 300px; }
+
+.product-grid .card-body {
+  padding: 15px; }
+
+.product-grid .card-text {
+  margin-bottom: 10px;
+  color: #555; }
+
+.product-grid .card-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 15px; }
+
+.product-grid .btn-primary {
+  background-color: #5db662;
+  border-color: #5db662;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none; }
+
+.product-grid .btn-primary:hover {
+  background-color: #329c37;
+  border-color: #329c37; }
+
+/* 8- Estilo Seccion 3 - PRODUCTOS-1 */
+.pagination-lg .page-link {
+  color: #333333; }
+
+.pagination-lg .page-link:hover {
+  color: #333333; }
+
+.pagination-lg .page-item.active .page-link {
+  background-color: #329c37;
+  border-color: #329c37; }
+
+.pagination {
+  display: flex;
+  justify-content: center; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #5cb660;
+  margin-top: 40px; }
+  footer p {
+    margin: 0;
+    color: #ffffff; }
+  footer i {
+    font-size: 30px;
+    margin-left: 20px;
+    color: #ffffff; }
+    footer i:hover {
+      color: #FFF027; }
+
+/* 3- Queries Hero INICIO */
+@media (max-width: 1422px) {
+  .banner-2 {
+    flex-direction: column;
     align-items: center;
-    margin: 0px;
-    padding: 0 20px; }
-    header nav a img {
-      width: 230px;
-      height: auto;
-      display: inline-block;
-      margin-left: 10px; }
-    header nav ul {
-      list-style: none;
-      display: flex; }
-      header nav ul li {
-        margin-left: 30px; }
-        header nav ul li a {
-          color: #fff;
-          text-decoration: none;
-          font-weight: 500; }
+    gap: 10px; }
+  .banner-2 .texto-banner-2 {
+    order: 1;
+    text-align: center; }
+  .banner-2 .imagen-1 {
+    order: 2; }
+  .banner-2 .texto-banner-2 h1 {
+    font-size: 40px; }
+  .banner-2 .texto-banner-2 p {
+    font-size: 20px; } }
+
+/* 4- Queries Productos Destacados - INICIO */
+@media (max-width: 1146px) {
+  .productos-destacados h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 20px; } }
+
+/* 7- Queries Seccion 1 - PRODUCTOS-1 */
+@media (max-width: 1471px) {
+  .product-grid {
+    display: grid center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; } }
+
+@media (max-width: 1133px) {
+  .product-grid {
+    display: grid center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; }
+  .promo-text2 {
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 10px; } }

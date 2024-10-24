@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SN Accesorios</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/estilos.css">         <!--Cambiar a estilos css -->
     <link rel="icon" href="./img/icono_web.png" type="image/icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,19 +18,36 @@
 </head>
 
 <body>
-    <!--Encabezado de mi web-->
     <header>
-        <nav>
-            <a href="#inicio">
-                <img src="./img/logo2.png" alt="logo de SN Accesorios" class="logo1">
-            </a>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/pagos.html">Formas de Pago</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./img/logo1.png" alt="Logo" style="width: 300px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./pages/pagos.html">Formas de Pago</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -46,7 +64,8 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./img/banner1.png" class="d-block w-100" alt="imagen de una chica con un celular en la mano">
+                        <img src="./img/banner1.png" class="d-block w-100"
+                            alt="imagen de una chica con un celular en la mano">
                     </div>
                     <div class="carousel-item">
                         <img src="./img/banner4.png" class="d-block w-100" alt="auriculares bluethoot ">
@@ -75,7 +94,10 @@
             <div class="texto-banner-2">
                 <h1>¡Bienvenidos a nuestro sitio Web!</h1>
                 <p>
-                    Somos <strong>SN Accesorios</strong> , llegamos para que tu celular se destaque de los demas. Vas a poder navegar por nuestro sitio web y descubrir los mejores accesorios electronicos y suplementos para tu celular. Trabajamos alta calidad en en auriculares, parlantes, relojes digitales y fundas de todos los tipos y diseños.
+                    Somos <strong>SN Accesorios</strong> , llegamos para que tu celular se destaque de los demas. Vas a
+                    poder navegar por nuestro sitio web y descubrir los mejores accesorios electronicos y suplementos
+                    para tu celular. Trabajamos alta calidad en en auriculares, parlantes, relojes digitales y fundas de
+                    todos los tipos y diseños.
                 </p>
             </div>
         </section>
@@ -137,7 +159,7 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>

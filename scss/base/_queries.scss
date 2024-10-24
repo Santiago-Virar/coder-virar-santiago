@@ -1,0 +1,58 @@
+/* 3- Queries Hero INICIO */
+@media (max-width:1422px){
+.banner-2{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+.banner-2 .texto-banner-2{
+    order: 1;
+    text-align: center;
+}
+.banner-2 .imagen-1 {
+    order: 2; 
+}
+.banner-2 .texto-banner-2 {
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+}
+
+/* 4- Queries Productos Destacados - INICIO */
+@media (max-width:1146px){
+.productos-destacados {
+    h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 20px;
+        }
+    }
+}
+
+/* 7- Queries Seccion 1 - PRODUCTOS-1 */
+@media (max-width:1471px){
+.product-grid{
+    display: grid center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    }
+}
+@media (max-width:1133px){
+.product-grid{
+    display: grid center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    }
+.promo-text2{
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 100px; 
+    padding-right: 10px;
+}
+}
