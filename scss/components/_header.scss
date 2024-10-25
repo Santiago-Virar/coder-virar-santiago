@@ -6,4 +6,10 @@
     color: #FFFFFF;
     margin-right: 35px;
     font-size: 17px;
+    transition: all 0.3s ease;
+    &:hover{
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
 }

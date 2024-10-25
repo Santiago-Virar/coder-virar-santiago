@@ -339,3 +339,197 @@
         }
         }
 }
+
+/* 11 - Estilo Seccion 1 - NOSOTROS */
+.app-promo4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #5cb660, #FFF027);
+    color: white;
+    margin-top: 30px;
+}
+.promo-text4{
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 300px; 
+    padding-right: 10px;
+    h2{
+        font-size: 55px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+}
+.promo-img4{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    img{
+        max-width: 380px;
+        height: auto;
+        margin-right: 10px;
+        margin-left: 10px; 
+    }
+}
+
+/* 12 - Estilo Seccion 2 - NOSOTROS */
+.sobre-nosotros {
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    h1 {
+        font-size: 2.5rem;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 1.2rem;
+        color: #555;
+        line-height: 1.8;
+        text-align: left;
+    }
+}
+/* 13 - Estilo Seccion 3 - NOSOTROS */
+.datos-breves {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f7f7f7;
+    .box {
+        width: 20%;
+        padding: 20px;
+        text-align: center;
+        background-color: #eaeaea;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+/* 14 - Estilo Seccion 4 - NOSOTROS */
+.clientes {
+    padding: 50px;
+    text-align: center;
+    h2 {
+        margin-bottom: 30px;
+    }
+    .cliente-img {
+        display: inline-block;
+        margin: 10px;
+        transition: transform 0.3s ease;
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+/* 15 - Estilo Seccion 4 - NOSOTROS */
+.ubicacion {
+    padding: 50px;
+    text-align: center;
+    h2 {
+        margin-bottom: 40px;
+        font-size: 2rem;
+    }
+    .mapa {
+        display: flex;
+        justify-content: center;       
+        iframe {
+            border: none;
+            width: 90%;
+            max-width: 1800px;
+            height: 450px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+    }
+}
+
+/* 16 - Estilo Seccion 1 - PAGOS */
+.app-promo5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #5cb660, #FFF027);
+    color: white;
+    margin-top: 30px;
+}
+.promo-text5{
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 300px; 
+    padding-right: 10px;
+    h2{
+        font-size: 55px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+}
+.promo-img5{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    img{
+        max-width: 390px;
+        height: auto;
+        margin-right: 10px;
+        margin-left: 10px; 
+    }
+}
+
+/* 17 - Estilo Seccion 2 - PAGOS */
+.formas-de-pago {
+    padding: 50px;
+    text-align: center;
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    p {
+        margin-bottom: 40px;
+        font-size: 1.2rem;
+    }
+}
+.metodos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.metodo{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s;
+    img {
+        max-width: 150px;
+        margin-bottom: 10px;
+        }
+    h3 {
+        margin: 10px 0;
+        font-size: 2rem;
+        }
+    p {
+        font-size: 1.1rem;
+        color: #666;
+        }
+    &:hover {
+        transform: scale(1.05); /* Efecto al pasar el mouse */
+        }
+}
