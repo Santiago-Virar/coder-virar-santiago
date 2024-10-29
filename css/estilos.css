@@ -163,6 +163,60 @@ body {
     margin-right: 20px;
     margin-left: 20px; }
 
+/*- Estilo Seccion 4 - INICIO */
+.collection-section {
+  text-align: center;
+  padding: 2rem; }
+  .collection-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem; }
+
+.collection-grid {
+  display: grid;
+  grid-template-areas: "large small1 small2" "large small3 small4";
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1rem; }
+
+.collection-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px; }
+  .collection-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease; }
+  .collection-item:hover img {
+    transform: scale(1.05); }
+
+.label {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center; }
+
+.large {
+  grid-area: large; }
+
+.collection-item:nth-child(2) {
+  grid-area: small1; }
+
+.collection-item:nth-child(3) {
+  grid-area: small2; }
+
+.collection-item:nth-child(4) {
+  grid-area: small3; }
+
+.collection-item:nth-child(5) {
+  grid-area: small4; }
+
 /* 6- Estilo Seccion 1 - PRODUCTOS-1 */
 .app-promo2 {
   display: flex;
@@ -507,8 +561,7 @@ body {
     font-size: 1.1rem;
     color: #666; }
   .metodo:hover {
-    transform: scale(1.05);
-    /* Efecto al pasar el mouse */ }
+    transform: scale(1.05); }
 
 footer {
   display: flex;
