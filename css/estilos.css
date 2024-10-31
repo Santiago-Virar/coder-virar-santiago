@@ -29,14 +29,49 @@ body {
     font-size: 1.2rem;
     font-weight: bold; }
 
-/* 2 - Estilo Carousel - INICIO */
-.carousel-item img {
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
-  width: 100%; }
+/* 2 - Estilo - INICIO */
+.app-promo6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-image: url("../img/stacked-waves-haikei (2).svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  margin-top: 30px; }
 
-/* 3- Estilo Hero - INICIO */
+.promo-text6 {
+  max-width: 50%;
+  text-align: center; }
+  .promo-text6 h2 {
+    font-size: 3rem;
+    margin-bottom: 20px; }
+  .promo-text6 p {
+    font-size: 1.5rem; }
+  .promo-text6 button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto; }
+    .promo-text6 button:hover {
+      background-color: #f0f0f0; }
+
+.promo-img6 {
+  display: flex;
+  justify-content: center;
+  flex: 1; }
+  .promo-img6 img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px; }
+
+/* 3- Estilo - INICIO */
 .banner-2 {
   width: 88%;
   max-width: 1400px;
@@ -63,11 +98,21 @@ body {
     color: #5db662;
     text-align: center; }
   .banner-2 .texto-banner-2 p {
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.6;
     font-size: 25px;
     color: #3b3b3b;
     text-align: center; }
+
+/* 4- Estilo Productos Destacados - INICIO */
+.titulo-pd {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+.titulo-box h2 {
+  font-size: 2rem;
+  color: #333333; }
 
 /* 4- Estilo Productos Destacados - INICIO */
 .productos-destacados {
@@ -128,18 +173,20 @@ body {
 /* 5- Estilo Seccion 3 - INICIO */
 .app-promo {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 40px;
-  background: linear-gradient(90deg, #5cb660, #FFF027);
-  color: white; }
+  background-image: url("../img/blob-scene-haikei.svg");
+  color: white;
+  gap: 10px; }
 
 .promo-text {
-  max-width: 50%;
+  width: 50%;
   text-align: center; }
   .promo-text h2 {
     font-size: 3rem;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
   .promo-text button {
     padding: 10px 20px;
     font-size: 1rem;
@@ -148,22 +195,19 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: block;
-    margin: 0 auto; }
+    margin-top: 10px; }
     .promo-text button:hover {
       background-color: #f0f0f0; }
 
 .promo-img {
+  flex: 1;
   display: flex;
-  justify-content: center;
-  flex: 1; }
+  justify-content: center; }
   .promo-img img {
     max-width: 100%;
-    height: auto;
-    margin-right: 20px;
-    margin-left: 20px; }
+    height: auto; }
 
-/*- Estilo Seccion 4 - INICIO */
+/*- Estilo Seccion 5 - INICIO */
 .collection-section {
   text-align: center;
   padding: 2rem; }
@@ -173,7 +217,7 @@ body {
 
 .collection-grid {
   display: grid;
-  grid-template-areas: "large small1 small2" "large small3 small4";
+  grid-template-areas: "large small1 small2" "large small3 small4";
   grid-template-columns: 2fr 1fr 1fr;
   gap: 1rem; }
 
@@ -205,25 +249,15 @@ body {
 .large {
   grid-area: large; }
 
-.collection-item:nth-child(2) {
-  grid-area: small1; }
-
-.collection-item:nth-child(3) {
-  grid-area: small2; }
-
-.collection-item:nth-child(4) {
-  grid-area: small3; }
-
-.collection-item:nth-child(5) {
-  grid-area: small4; }
-
 /* 6- Estilo Seccion 1 - PRODUCTOS-1 */
 .app-promo2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px;
-  background: linear-gradient(90deg, #5cb660, #FFF027);
+  background-image: url("../img/stacked-waves-haikei (2).svg");
+  background-repeat: no-repeat;
+  background-position: center;
   color: white;
   margin-top: 30px; }
 
@@ -326,7 +360,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 40px;
-  background: linear-gradient(90deg, #5cb660, #FFF027);
+  background-image: url("../img/stacked-waves-haikei (2).svg");
+  background-repeat: no-repeat;
+  background-position: center;
   color: white;
   margin-top: 30px; }
 
@@ -395,13 +431,88 @@ body {
     .social-icons a:hover {
       color: #329c37; }
 
+/* 9- Estilo Seccion 3 - CONTACTO */
+.contact-form {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto; }
+  .contact-form h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px; }
+  .contact-form .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+    .contact-form .form-container form {
+      display: flex;
+      flex-direction: column; }
+      .contact-form .form-container form fieldset {
+        border: none;
+        padding: 0; }
+        .contact-form .form-container form fieldset legend {
+          font-size: 1.2em;
+          margin-bottom: 10px;
+          font-weight: bold;
+          color: #333; }
+        .contact-form .form-container form fieldset label {
+          font-weight: 600;
+          margin-top: 10px;
+          color: #555; }
+        .contact-form .form-container form fieldset input[type="text"],
+        .contact-form .form-container form fieldset input[type="email"],
+        .contact-form .form-container form fieldset select,
+        .contact-form .form-container form fieldset textarea {
+          width: 100%;
+          padding: 8px;
+          margin-top: 5px;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+          font-size: 1em;
+          color: #333;
+          background-color: #f9f9f9; }
+          .contact-form .form-container form fieldset input[type="text"]:focus,
+          .contact-form .form-container form fieldset input[type="email"]:focus,
+          .contact-form .form-container form fieldset select:focus,
+          .contact-form .form-container form fieldset textarea:focus {
+            border-color: #007bff;
+            outline: none; }
+        .contact-form .form-container form fieldset .checkbox-container {
+          display: flex;
+          align-items: center;
+          margin-top: 10px; }
+          .contact-form .form-container form fieldset .checkbox-container input[type="checkbox"] {
+            margin-right: 8px; }
+          .contact-form .form-container form fieldset .checkbox-container a {
+            color: #007bff;
+            text-decoration: none; }
+            .contact-form .form-container form fieldset .checkbox-container a:hover {
+              text-decoration: underline; }
+        .contact-form .form-container form fieldset button {
+          display: block;
+          margin: 15px auto 0 auto;
+          padding: 10px;
+          background-color: #5db662;
+          color: #fff;
+          font-size: 1em;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer; }
+          .contact-form .form-container form fieldset button:hover {
+            background-color: #329c37; }
+
 /* 11 - Estilo Seccion 1 - NOSOTROS */
 .app-promo4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px;
-  background: linear-gradient(90deg, #5cb660, #FFF027);
+  background-image: url("../img/stacked-waves-haikei (2).svg");
+  background-repeat: no-repeat;
+  background-position: center;
   color: white;
   margin-top: 30px; }
 
@@ -501,7 +612,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 40px;
-  background: linear-gradient(90deg, #5cb660, #FFF027);
+  background-image: url("../img/stacked-waves-haikei (2).svg");
+  background-repeat: no-repeat;
+  background-position: center;
   color: white;
   margin-top: 30px; }
 
@@ -578,7 +691,7 @@ footer {
     margin-left: 20px;
     color: #ffffff; }
     footer i:hover {
-      color: #FFF027; }
+      color: #176ced; }
 
 /* 3- Queries Hero INICIO */
 @media (max-width: 1422px) {

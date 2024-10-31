@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SN Accesorios</title>
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="icon" href="../img/SN_icono.png" type="image/icon">
+    <link rel="icon" href="../img/SN_icono1.png" type="image/icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet"
@@ -16,6 +16,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg custom-navbar">
@@ -45,7 +46,8 @@
                                 href="./nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="./pagos.html">Formas de Pago</a>
+                            <a class="nav-link active text-light" aria-current="page" href="./pagos.html">Formas de
+                                Pago</a>
                         </li>
                     </ul>
                 </div>
@@ -54,7 +56,7 @@
     </header>
     <main>
 
-<!-- Seccion 1 -->
+        <!-- Seccion 1 -->
         <section class="app-promo3">
             <div class="promo-text3">
                 <h2>Contacto</h2>
@@ -64,13 +66,14 @@
             </div>
         </section>
 
-<!-- Seccion 2 -->
+        <!-- Seccion 2 -->
         <section class="contact-section">
             <div class="contact-block">
                 <i class="fas fa-envelope contact-icon"></i>
                 <h3>Correo Electrónico</h3>
                 <p>snaccesorios44@gmail.com</p>
-                <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank" class="contact-button">Enviar Correo</a>
+                <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank" class="contact-button">Enviar
+                    Correo</a>
             </div>
             <div class="contact-block">
                 <i class="fas fa-phone contact-icon"></i>
@@ -82,10 +85,49 @@
                 <i class="fas fa-share-alt contact-icon"></i>
                 <h3>Síguenos en redes sociales</h3>
                 <div class="social-icons">
-                    <a href="https://www.threads.net/@santiago.virar?xmt=AQGz8_Vjvn3D2C6A__kWIPfyh2ExtmtFOeVW3aeS0mv9y1U" target="_blank"><i class="bi bi-threads"></i></a>
-                    <a href="https://www.instagram.com/s.n_accesorios/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.threads.net/@santiago.virar?xmt=AQGz8_Vjvn3D2C6A__kWIPfyh2ExtmtFOeVW3aeS0mv9y1U"
+                        target="_blank"><i class="bi bi-threads"></i></a>
+                    <a href="https://www.instagram.com/s.n_accesorios/" target="_blank"><i
+                            class="bi bi-instagram"></i></a>
                     <a href="https://www.facebook.com/jimena.arboit" target="_blank"><i class="bi bi-facebook"></i></a>
                 </div>
+            </div>
+        </section>
+
+        <!-- Seccion 3 -->
+        <section class="contact-form">
+            <h2>Formulario de Contacto</h2>
+            <div class="form-container">
+                <form>
+                    <fieldset>
+                        <legend>Información Básica</legend>
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" placeholder="Julian Smith" />
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="ejemplo@gmail.com" />
+
+                        <label for="gender">Sexo</label>
+                        <select id="gender">
+                            <option>Masculino</option>
+                            <option>Femenino</option>
+                            <option>Otro</option>
+                        </select>
+
+                        <label for="referent">Referente de venta</label>
+                        <input type="text" id="referent" placeholder="Persona referente" />
+
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" placeholder="Déjanos tu mensaje..."></textarea>
+
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="terms" />
+                            <label for="terms">Acepto los <a href="#">términos y condiciones</a>.</label>
+                        </div>
+
+                        <button type="submit">Enviar</button>
+                    </fieldset>
+                </form>
             </div>
         </section>
     </main>
@@ -99,8 +141,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-</body>
-</html>
+        </script>
 </body>
 </html>

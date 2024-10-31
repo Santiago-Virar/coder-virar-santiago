@@ -1,14 +1,52 @@
-/* 2 - Estilo Carousel - INICIO */
-.carousel-item{
+/* 2 - Estilo - INICIO */
+.app-promo6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-image: url("../img/stacked-waves-haikei\ \(2\).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    margin-top: 30px;
+}
+.promo-text6{
+    max-width: 50%;
+    text-align: center;
+    h2{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    button{
+        padding: 10px 20px;
+        font-size: 1rem;
+        background-color: white;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        display: block;
+        margin: 0 auto;
+        &:hover{
+            background-color: #f0f0f0;
+        }
+    }
+}
+.promo-img6{
+    display: flex;
+    justify-content: center;
+    flex: 1; 
     img{
-        height: 100%;
-        object-fit: cover; 
-        object-position: top;
-        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-right: 20px;
+        margin-left: 20px; 
     }
 }
 
-/* 3- Estilo Hero - INICIO */
+/* 3- Estilo - INICIO */
 .banner-2 {
     width: 88%;
     max-width: 1400px;
@@ -37,7 +75,7 @@
         text-align: center;
     }
     p{
-        font-weight: 500;
+        font-weight: 400;
         line-height: 1.6;
         font-size: 25px;
         color: #3b3b3b; 
@@ -45,6 +83,18 @@
     }
 }
 
+/* 4- Estilo Productos Destacados - INICIO */
+.titulo-pd{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.titulo-box{
+    h2{
+        font-size: 2rem;
+        color: #333333;
+    }
+}
 /* 4- Estilo Productos Destacados - INICIO */
 .productos-destacados {
     width: 85%; 
@@ -57,13 +107,14 @@
     border-radius: 15px;
     text-align: center;
     margin-bottom: 40px;
-    h2{
+        h2{
         font-size: 24px;
         margin-bottom: 20px;
         text-align: left;
         margin-left: 20px;
     }
 }
+
 .productos-destacados .card {
     display: inline-block;
     width: 18rem;
@@ -105,22 +156,26 @@
 }
 
 /* 5- Estilo Seccion 3 - INICIO */
-.app-promo{
+.app-promo {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 40px;
-    background: linear-gradient(90deg, #5cb660, #FFF027);
+    background-image: url("../img/blob-scene-haikei.svg");
     color: white;
+    gap: 10px; 
 }
-.promo-text{
-    max-width: 50%;
+
+.promo-text {
+    width: 50%;
     text-align: center;
-    h2{
+    
+    h2 {
         font-size: 3rem;
         margin-bottom: 20px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);    
     }
-    button{
+    button {
         padding: 10px 20px;
         font-size: 1rem;
         background-color: white;
@@ -128,26 +183,27 @@
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        display: block;
-        margin: 0 auto;
-        &:hover{
+        margin-top: 10px;
+        
+        &:hover {
             background-color: #f0f0f0;
         }
     }
 }
-.promo-img{
+
+.promo-img {
+    flex: 1;
     display: flex;
     justify-content: center;
-    flex: 1; 
-    img{
+
+    img {
         max-width: 100%;
         height: auto;
-        margin-right: 20px;
-        margin-left: 20px; 
     }
 }
 
-/*- Estilo Seccion 4 - INICIO */
+
+/*- Estilo Seccion 5 - INICIO */
 .collection-section {
     text-align: center;
     padding: 2rem;
@@ -202,7 +258,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    background: linear-gradient(90deg, #5cb660, #FFF027);
+    background-image: url("../img/stacked-waves-haikei\ \(2\).svg");
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
     margin-top: 30px;
 }
@@ -312,7 +370,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    background: linear-gradient(90deg, #5cb660, #FFF027);
+    background-image: url("../img/stacked-waves-haikei\ \(2\).svg");
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
     margin-top: 30px;
 }
@@ -389,13 +449,102 @@
         }
 }
 
+/* 9- Estilo Seccion 3 - CONTACTO */
+.contact-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+    h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    }
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    form {
+        display: flex;
+        flex-direction: column;
+        fieldset {
+        border: none;
+        padding: 0;
+        legend {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+        label {
+            font-weight: 600;
+            margin-top: 10px;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+            color: #333;
+            background-color: #f9f9f9;
+            &:focus {
+            border-color: #007bff;
+            outline: none;
+            }
+        }
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            input[type="checkbox"] {
+            margin-right: 8px;
+            }
+            a {
+            color: #007bff;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+            }
+        }
+        button {
+            display: block;
+            margin: 15px auto 0 auto;
+            padding: 10px;
+            background-color: #5db662;
+            color: #fff;
+            font-size: 1em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            &:hover {
+            background-color: #329c37;
+            }
+        }
+        }
+    }
+    }
+}
+
+
 /* 11 - Estilo Seccion 1 - NOSOTROS */
 .app-promo4{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    background: linear-gradient(90deg, #5cb660, #FFF027);
+    background-image: url("../img/stacked-waves-haikei\ \(2\).svg");
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
     margin-top: 30px;
 }
@@ -511,7 +660,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    background: linear-gradient(90deg, #5cb660, #FFF027);
+    background-image: url("../img/stacked-waves-haikei\ \(2\).svg");
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
     margin-top: 30px;
 }
