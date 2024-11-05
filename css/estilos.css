@@ -249,7 +249,7 @@ body {
 .large {
   grid-area: large; }
 
-/*/* SECCION 1 - PRODUCTOS-1,2,3*/
+/*SECCION 1 - PRODUCTOS-1,2,3*/
 .app-promo2 {
   display: flex;
   justify-content: space-between;
@@ -431,7 +431,7 @@ body {
     .social-icons a:hover {
       color: #329c37; }
 
-/* 9- Estilo Seccion 3 - CONTACTO */
+/* SECCION 3 - CONTACTO */
 .contact-form {
   background-color: #f4f4f4;
   padding: 20px;
@@ -504,7 +504,7 @@ body {
           .contact-form .form-container form fieldset button:hover {
             background-color: #329c37; }
 
-/* 11 - Estilo Seccion 1 - NOSOTROS */
+/* SECCION 1 - NOSOTROS */
 .app-promo4 {
   display: flex;
   justify-content: space-between;
@@ -538,13 +538,13 @@ body {
     margin-right: 10px;
     margin-left: 10px; }
 
-/* 12 - Estilo Seccion 2 - NOSOTROS */
+/* SECCION 2 - NOSOTROS */
 .sobre-nosotros {
   padding: 50px;
   max-width: 1200px;
   margin: 0 auto; }
   .sobre-nosotros h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: left;
     margin-bottom: 20px; }
   .sobre-nosotros p {
@@ -553,7 +553,7 @@ body {
     line-height: 1.8;
     text-align: left; }
 
-/* 13 - Estilo Seccion 3 - NOSOTROS */
+/* SECCION 3 - NOSOTROS */
 .datos-breves {
   display: flex;
   justify-content: space-around;
@@ -570,12 +570,13 @@ body {
     .datos-breves .box:hover {
       transform: scale(1.1); }
 
-/* 14 - Estilo Seccion 4 - NOSOTROS */
+/* SECCION 4 - NOSOTROS */
 .clientes {
   padding: 50px;
   text-align: center; }
   .clientes h2 {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-size: 2rem; }
   .clientes .cliente-img {
     display: inline-block;
     margin: 10px;
@@ -588,7 +589,7 @@ body {
     .clientes .cliente-img:hover {
       transform: scale(1.1); }
 
-/* 15 - Estilo Seccion 4 - NOSOTROS */
+/* SECCION 5 - NOSOTROS */
 .ubicacion {
   padding: 50px;
   text-align: center; }
@@ -660,8 +661,8 @@ body {
 .metodo {
   background-color: #f7f7f7;
   border-radius: 10px;
-  padding: 40px;
-  width: 400px;
+  padding: 20px;
+  width: 300px;
   text-align: center;
   transition: transform 0.3s; }
   .metodo img {
@@ -847,7 +848,7 @@ footer {
   .promo-img2 img {
     max-width: 200px; }
   .promo-text2 h2 {
-    font-size: 27px; }
+    font-size: 40px; }
   .app-promo2 {
     padding: 20px; } }
 
@@ -880,7 +881,7 @@ footer {
   .promo-text3 {
     padding: inherit; }
     .promo-text3 h2 {
-      font-size: 35px; }
+      font-size: 40px; }
   .app-promo3 {
     flex-direction: column;
     padding: 15px; } }
@@ -899,3 +900,71 @@ footer {
     max-width: 300px; }
     .contact-form h2 {
       font-size: 18px; } }
+
+/* SECCION 1 - NOSOTROS */
+@media (max-width: 1110px) {
+  .promo-text4 {
+    padding-left: 170px; } }
+
+@media (max-width: 850px) {
+  .promo-text4 {
+    padding-left: 90px; }
+    .promo-text4 h2 {
+      font-size: 40px; }
+  .promo-img4 img {
+    max-width: 230px; } }
+
+@media (max-width: 580px) {
+  .app-promo4 {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px; }
+  .promo-text4 {
+    padding: inherit; } }
+
+@media (max-width: 1105px) {
+  .datos-breves {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; }
+    .datos-breves .box {
+      width: 40%; } }
+
+@media (max-width: 775px) {
+  .datos-breves {
+    padding: 25px; }
+    .datos-breves .box {
+      width: 45%;
+      padding: 10px;
+      font-size: 12px; }
+      .datos-breves .box h3 {
+        font-size: 20px; }
+  .clientes .cliente-img img {
+    width: 140px; } }
+
+@media (max-width: 425px) {
+  .sobre-nosotros h1 {
+    font-size: 30px; }
+  .sobre-nosotros p {
+    font-size: 13px; }
+  .clientes h2 {
+    font-size: 30px; }
+  .ubicacion h2 {
+    font-size: 30px; } }
+
+/* SECCION 1 - PAGOS */
+@media (max-width: 1110px) {
+  .promo-img5 img {
+    max-width: 300px; }
+  .promo-text5 {
+    padding-left: 50px; }
+    .promo-text5 h2 {
+      font-size: 40px; } }
+
+@media (max-width: 560px) {
+  .promo-text5 {
+    max-width: 80%; }
+  .app-promo5 {
+    flex-direction: column; }
+  .promo-img5 img {
+    max-width: 255px; } }

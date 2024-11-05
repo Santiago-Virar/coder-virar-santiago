@@ -241,7 +241,7 @@
     }
     .promo-text2{
         h2{
-            font-size: 27px;
+            font-size: 40px;
         }
     }
     .app-promo2{
@@ -289,7 +289,7 @@
     .promo-text3{
         padding: inherit;
         h2{
-            font-size: 35px;
+            font-size: 40px;
         }
     }
     .app-promo3{
@@ -320,5 +320,121 @@
         }
     }
 }
+
+/* SECCION 1 - NOSOTROS */
+@media (max-width:1110px){
+    .promo-text4{
+        padding-left: 170px;
+    }
+}
+@media (max-width:850px){
+    .promo-text4{
+        padding-left: 90px;
+        h2{
+            font-size: 40px;
+        }
+    }
+    .promo-img4{
+        img{
+            max-width: 230px;
+        }
+    }
+}
+@media (max-width:580px){
+    .app-promo4{
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+    .promo-text4{
+        padding: inherit;
+    }
+}
+
+@media (max-width:1105px){
+    .datos-breves {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        .box{
+            width: 40%;
+        }
+    }
+}
+@media (max-width:775px){
+    .datos-breves {
+        padding: 25px;
+        .box{
+            width: 45%;
+            padding: 10px;
+            font-size: 12px;
+            h3{
+                font-size: 20px;
+            }
+        }
+    }
+    .clientes {
+        .cliente-img {
+            img{
+                width: 140px;
+            }
+            
+        }
+    }
+}
+
+@media (max-width:425px){
+    .sobre-nosotros {
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+    .clientes {
+        h2{
+            font-size: 30px;
+        }
+    }
+    .ubicacion {
+        h2{
+            font-size: 30px;
+        }
+    }
+}
+
+/* SECCION 1 - PAGOS */
+@media (max-width:1110px){
+    .promo-img5{
+        img{
+            max-width: 300px;
+        }
+    }
+    .promo-text5{
+        padding-left: 50px;
+        h2{
+            font-size: 40px;
+        }
+    }
+}
+@media (max-width:560px){
+    .promo-text5{
+        max-width: 80%;
+    }
+    .app-promo5{
+        flex-direction: column;
+    }
+    .promo-img5{
+        img{
+            max-width: 255px;
+        }
+    }
+}
+
+
+
+
+
 
 

@@ -200,7 +200,6 @@
     }
 }
 
-
 /* SECCION 6 - INICIO */
 .collection-section {
     text-align: center;
@@ -250,7 +249,7 @@
     grid-area: large;
 }
 
-/*/* SECCION 1 - PRODUCTOS-1,2,3*/
+/*SECCION 1 - PRODUCTOS-1,2,3*/
 .app-promo2{
     display: flex;
     justify-content: space-between;
@@ -447,7 +446,7 @@
         }
 }
 
-/* 9- Estilo Seccion 3 - CONTACTO */
+/* SECCION 3 - CONTACTO */
 .contact-form {
     background-color: #f4f4f4;
     padding: 20px;
@@ -533,8 +532,7 @@
     }
 }
 
-
-/* 11 - Estilo Seccion 1 - NOSOTROS */
+/* SECCION 1 - NOSOTROS */
 .app-promo4{
     display: flex;
     justify-content: space-between;
@@ -571,13 +569,13 @@
     }
 }
 
-/* 12 - Estilo Seccion 2 - NOSOTROS */
+/* SECCION 2 - NOSOTROS */
 .sobre-nosotros {
     padding: 50px;
     max-width: 1200px;
     margin: 0 auto;
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: left;
         margin-bottom: 20px;
     }
@@ -588,7 +586,7 @@
         text-align: left;
     }
 }
-/* 13 - Estilo Seccion 3 - NOSOTROS */
+/* SECCION 3 - NOSOTROS */
 .datos-breves {
     display: flex;
     justify-content: space-around;
@@ -607,12 +605,13 @@
         }
     }
 }
-/* 14 - Estilo Seccion 4 - NOSOTROS */
+/* SECCION 4 - NOSOTROS */
 .clientes {
     padding: 50px;
     text-align: center;
     h2 {
         margin-bottom: 30px;
+        font-size: 2rem;
     }
     .cliente-img {
         display: inline-block;
@@ -630,7 +629,7 @@
     }
 }
 
-/* 15 - Estilo Seccion 4 - NOSOTROS */
+/* SECCION 5 - NOSOTROS */
 .ubicacion {
     padding: 50px;
     text-align: center;
@@ -711,8 +710,8 @@
 .metodo{
     background-color: #f7f7f7;
     border-radius: 10px;
-    padding: 40px;
-    width: 400px;
+    padding: 20px;
+    width: 300px;
     text-align: center;
     transition: transform 0.3s;
     img {
