@@ -29,7 +29,7 @@ body {
     font-size: 1.2rem;
     font-weight: bold; }
 
-/* 2 - Estilo - INICIO */
+/* SECCION 1 - INICIO */
 .app-promo6 {
   display: flex;
   justify-content: space-between;
@@ -71,7 +71,7 @@ body {
     margin-right: 20px;
     margin-left: 20px; }
 
-/* 3- Estilo - INICIO */
+/* SECCION 2 - INICIO */
 .banner-2 {
   width: 88%;
   max-width: 1400px;
@@ -104,7 +104,7 @@ body {
     color: #3b3b3b;
     text-align: center; }
 
-/* 4- Estilo Productos Destacados - INICIO */
+/* SECCION 3 - INICIO */
 .titulo-pd {
   text-align: center;
   margin-bottom: 20px;
@@ -114,7 +114,7 @@ body {
   font-size: 2rem;
   color: #333333; }
 
-/* 4- Estilo Productos Destacados - INICIO */
+/* SECCION 4 - INICIO */
 .productos-destacados {
   width: 85%;
   max-width: 1400px;
@@ -170,7 +170,7 @@ body {
   background-color: #329c37;
   border-color: #329c37; }
 
-/* 5- Estilo Seccion 3 - INICIO */
+/* SECCION 5 - INICIO */
 .app-promo {
   display: flex;
   justify-content: center;
@@ -207,7 +207,7 @@ body {
     max-width: 100%;
     height: auto; }
 
-/*- Estilo Seccion 5 - INICIO */
+/* SECCION 6 - INICIO */
 .collection-section {
   text-align: center;
   padding: 2rem; }
@@ -249,7 +249,7 @@ body {
 .large {
   grid-area: large; }
 
-/* 6- Estilo Seccion 1 - PRODUCTOS-1 */
+/*/* SECCION 1 - PRODUCTOS-1,2,3*/
 .app-promo2 {
   display: flex;
   justify-content: space-between;
@@ -283,7 +283,7 @@ body {
     margin-right: 10px;
     margin-left: 10px; }
 
-/* 7- Estilo Seccion 2 - PRODUCTOS-1 */
+/*SECCION 2 - PRODUCTOS-1,2,3*/
 .productos_2 {
   width: 85%;
   max-width: 1400px;
@@ -339,7 +339,7 @@ body {
   background-color: #329c37;
   border-color: #329c37; }
 
-/* 8- Estilo Seccion 3 - PRODUCTOS-1 */
+/* SECCION 3 - PRODUCTOS-1,2,3*/
 .pagination-lg .page-link {
   color: #333333; }
 
@@ -354,7 +354,7 @@ body {
   display: flex;
   justify-content: center; }
 
-/* 9- Estilo Seccion 1 - CONTACTO */
+/* SECCION 1 - CONTACTO */
 .app-promo3 {
   display: flex;
   justify-content: space-between;
@@ -388,7 +388,7 @@ body {
     margin-right: 10px;
     margin-left: 10px; }
 
-/* 10- Estilo Seccion 2 - CONTACTO*/
+/* SECCION 2 - CONTACTO */
 .contact-section {
   display: flex;
   justify-content: space-around;
@@ -693,45 +693,209 @@ footer {
     footer i:hover {
       color: #176ced; }
 
-/* 3- Queries Hero INICIO */
-@media (max-width: 1422px) {
-  .banner-2 {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; }
-  .banner-2 .texto-banner-2 {
-    order: 1;
-    text-align: center; }
-  .banner-2 .imagen-1 {
-    order: 2; }
+/*SECCION 1 INICIO */
+@media (max-width: 750px) {
+  .promo-text6 h2 {
+    font-size: 2rem; }
+  .promo-text6 p {
+    font-size: 18px; }
+  .promo-text6 button {
+    font-size: 13px; }
+  .promo-img6 img {
+    max-width: 160px; } }
+
+@media (max-width: 590px) {
+  .promo-text6 h2 {
+    font-size: 20px; }
+  .promo-text6 p {
+    font-size: 12px; }
+  .promo-text6 button {
+    font-size: 9px; } }
+
+@media (max-width: 530px) {
+  .app-promo6 {
+    flex-direction: column; }
+  .promo-img6 {
+    display: none; } }
+
+@media (max-width: 400px) {
+  .promo-text6 h2 {
+    font-size: 17px;
+    margin-bottom: 10px; }
+  .promo-text6 p {
+    font-size: 10px; }
+  .promo-text6 button {
+    font-size: 8px;
+    padding: 8px 10px; } }
+
+/*SECCION 2 INICIO */
+@media (max-width: 1300px) {
+  .banner-2 .imagen-1 img {
+    height: 400px; }
   .banner-2 .texto-banner-2 h1 {
-    font-size: 40px; }
+    font-size: 34px; }
   .banner-2 .texto-banner-2 p {
     font-size: 20px; } }
 
-/* 4- Queries Productos Destacados - INICIO */
-@media (max-width: 1146px) {
-  .productos-destacados h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
-    margin-left: 20px; } }
+@media (max-width: 1110px) {
+  .banner-2 .imagen-1 img {
+    height: 310px; } }
 
-/* 7- Queries Seccion 1 - PRODUCTOS-1 */
+@media (max-width: 955px) {
+  .banner-2 {
+    flex-direction: column-reverse; } }
+
+@media (max-width: 655px) {
+  .banner-2 .imagen-1 img {
+    margin-top: -30px; }
+  .banner-2 .texto-banner-2 h1 {
+    font-size: 26px; }
+  .banner-2 .texto-banner-2 p {
+    font-size: 15px; } }
+
+@media (max-width: 530px) {
+  .banner-2 .imagen-1 img {
+    height: 160px; }
+  .banner-2 .texto-banner-2 h1 {
+    font-size: 20px; }
+  .banner-2 .texto-banner-2 p {
+    font-size: 11px; } }
+
+/* SECCION 3 - INICIO */
+@media (max-width: 655px) {
+  .titulo-box h2 {
+    font-size: 26px; } }
+
+/* SECCION 4 - INICIO */
+@media (max-width: 1515px) {
+  .productos-destacados {
+    max-width: 740px; } }
+
+@media (max-width: 785px) {
+  .productos-destacados {
+    max-width: 365px; } }
+
+/* SECCION 5 - INICIO */
+@media (max-width: 830px) {
+  .promo-text h2 {
+    font-size: 2rem;
+    margin-bottom: 8px; }
+  .promo-text button {
+    padding: 6px 12px;
+    font-size: 12px; } }
+
+@media (max-width: 580px) {
+  .promo-text h2 {
+    font-size: 20px; }
+  .promo-text button {
+    font-size: 7px; } }
+
+/* SECCION 6 -INICIO  */
+@media (max-width: 1055px) {
+  .label {
+    padding: 4px 5px;
+    font-size: 13px; } }
+
+@media (max-width: 860px) {
+  .label {
+    font-size: 9px; } }
+
+@media (max-width: 655px) {
+  .collection-section h2 {
+    font-size: 26px; } }
+
+/* SECCION 1 Y 2 - PRODUCTOS-1,2,3 */
+@media (max-width: 1270px) {
+  .promo-img2 img {
+    max-width: 440px; } }
+
+@media (max-width: 865px) {
+  .promo-img2 img {
+    max-width: 300px; }
+  .promo-text2 h2 {
+    font-size: 40px; } }
+
 @media (max-width: 1471px) {
   .product-grid {
     display: grid center;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px; } }
 
-@media (max-width: 1133px) {
+@media (max-width: 1135px) {
   .product-grid {
     display: grid center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px; }
+    gap: 10px; }
+  .productos_2 {
+    max-width: 640px; }
   .promo-text2 {
     max-width: 50%;
     text-align: center;
     margin: 0 auto;
     padding-left: 100px;
     padding-right: 10px; } }
+
+@media (max-width: 735px) {
+  .product-grid {
+    display: grid center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px; }
+  .productos_2 {
+    max-width: 330px; } }
+
+@media (max-width: 650px) {
+  .promo-img2 img {
+    max-width: 200px; }
+  .promo-text2 h2 {
+    font-size: 27px; }
+  .app-promo2 {
+    padding: 20px; } }
+
+@media (max-width: 475px) {
+  .app-promo2 {
+    flex-direction: column; }
+  .promo-text2 {
+    padding: inherit; } }
+
+/* SECCION 1 - CONTACTO */
+@media (max-width: 1110px) {
+  .promo-text3 {
+    padding-left: 125px; } }
+
+/* SECCION 2 - CONTACTO */
+@media (max-width: 865px) {
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; }
+  .contact-block {
+    width: 55%; }
+  .promo-img3 img {
+    max-width: 50%; }
+  .promo-text3 h2 {
+    font-size: 45px; } }
+
+@media (max-width: 600px) {
+  .promo-text3 {
+    padding: inherit; }
+    .promo-text3 h2 {
+      font-size: 35px; }
+  .app-promo3 {
+    flex-direction: column;
+    padding: 15px; } }
+
+@media (max-width: 475px) {
+  .social-icons a {
+    font-size: 30px; }
+  .contact-block {
+    font-size: 17px; }
+    .contact-block p {
+      font-size: 12px; }
+  .contact-button {
+    padding: 6px 12px;
+    font-size: 13px; }
+  .contact-form {
+    max-width: 300px; }
+    .contact-form h2 {
+      font-size: 18px; } }

@@ -1,4 +1,4 @@
-/* 2 - Estilo - INICIO */
+/* SECCION 1 - INICIO */
 .app-promo6{
     display: flex;
     justify-content: space-between;
@@ -46,7 +46,7 @@
     }
 }
 
-/* 3- Estilo - INICIO */
+/* SECCION 2 - INICIO */
 .banner-2 {
     width: 88%;
     max-width: 1400px;
@@ -83,7 +83,7 @@
     }
 }
 
-/* 4- Estilo Productos Destacados - INICIO */
+/* SECCION 3 - INICIO */
 .titulo-pd{
     text-align: center;
     margin-bottom: 20px;
@@ -95,7 +95,8 @@
         color: #333333;
     }
 }
-/* 4- Estilo Productos Destacados - INICIO */
+
+/* SECCION 4 - INICIO */
 .productos-destacados {
     width: 85%; 
     max-width: 1400px; 
@@ -155,7 +156,7 @@
     border-color: #329c37;
 }
 
-/* 5- Estilo Seccion 3 - INICIO */
+/* SECCION 5 - INICIO */
 .app-promo {
     display: flex;
     justify-content: center;
@@ -169,7 +170,6 @@
 .promo-text {
     width: 50%;
     text-align: center;
-    
     h2 {
         font-size: 3rem;
         margin-bottom: 20px;
@@ -184,7 +184,6 @@
         border-radius: 5px;
         cursor: pointer;
         margin-top: 10px;
-        
         &:hover {
             background-color: #f0f0f0;
         }
@@ -195,7 +194,6 @@
     flex: 1;
     display: flex;
     justify-content: center;
-
     img {
         max-width: 100%;
         height: auto;
@@ -203,7 +201,7 @@
 }
 
 
-/*- Estilo Seccion 5 - INICIO */
+/* SECCION 6 - INICIO */
 .collection-section {
     text-align: center;
     padding: 2rem;
@@ -252,7 +250,7 @@
     grid-area: large;
 }
 
-/* 6- Estilo Seccion 1 - PRODUCTOS-1 */
+/*/* SECCION 1 - PRODUCTOS-1,2,3*/
 .app-promo2{
     display: flex;
     justify-content: space-between;
@@ -289,7 +287,7 @@
     }
 }
 
-/* 7- Estilo Seccion 2 - PRODUCTOS-1 */
+/*SECCION 2 - PRODUCTOS-1,2,3*/
 .productos_2{
     width: 85%; 
     max-width: 1400px; 
@@ -347,7 +345,7 @@
     border-color: #329c37;
 }
 
-/* 8- Estilo Seccion 3 - PRODUCTOS-1 */
+/* SECCION 3 - PRODUCTOS-1,2,3*/
 .pagination-lg .page-link{
     color: #333333;
 }
@@ -364,7 +362,7 @@
     justify-content: center;
 }
 
-/* 9- Estilo Seccion 1 - CONTACTO */
+/* SECCION 1 - CONTACTO */
 .app-promo3{
     display: flex;
     justify-content: space-between;
@@ -401,7 +399,7 @@
     }
 }
 
-/* 10- Estilo Seccion 2 - CONTACTO*/
+/* SECCION 2 - CONTACTO */
 .contact-section {
     display: flex;
     justify-content: space-around;
