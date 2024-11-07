@@ -753,7 +753,7 @@ body {
 
 @media (max-width: 530px) {
   .banner-2 .imagen-1 img {
-    height: 160px; }
+    height: 200px; }
   .banner-2 .texto-banner-2 h1 {
     font-size: 20px; }
   .banner-2 .texto-banner-2 p {
@@ -963,7 +963,7 @@ body {
   .datos-breves {
     padding: 25px; }
     .datos-breves .box {
-      width: 45%;
+      width: 80%;
       padding: 10px;
       font-size: 12px; }
       .datos-breves .box h3 {
@@ -976,8 +976,10 @@ body {
     font-size: 30px; }
   .sobre-nosotros p {
     font-size: 13px; }
-  .clientes h2 {
-    font-size: 30px; }
+  .clientes {
+    padding: 25px; }
+    .clientes h2 {
+      font-size: 30px; }
   .ubicacion h2 {
     font-size: 30px; } }
 
@@ -1006,3 +1008,7 @@ body {
     margin-top: 10px; }
     .icon-footer a i {
       font-size: 25px; } }
+
+@media (max-width: 450px) {
+  p {
+    font-size: 12px; } }
