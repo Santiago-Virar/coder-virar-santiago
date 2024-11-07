@@ -1,9 +1,9 @@
-footer{
+.footer{
     display: flex;
     justify-content: space-between; 
     align-items: center;
     padding: 10px 50px;
-    background-color: #5cb660;
+    background-color: $color-principal;
     margin-top: 40px;
     p{
         margin: 0;

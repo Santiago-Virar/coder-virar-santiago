@@ -1,13 +1,16 @@
+/*Funcionalidades */
+/*VARIABLES*/
+/*EXTENDS*/
+.promo-img6, .promo-img, .promo-img2, .promo-img3, .promo-img4, .promo-img5 {
+  display: flex;
+  justify-content: center;
+  flex: 1; }
+
+/*MIXIN*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
-
-html body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column; }
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -17,7 +20,7 @@ body {
 
 /* 1 - Estilo Header GENERAL-Todas las page */
 .custom-navbar {
-  background-color: #5cb660; }
+  background-color: #5CB660; }
 
 .custom-navbar .navbar-nav .nav-link {
   color: #FFFFFF;
@@ -61,15 +64,11 @@ body {
     .promo-text6 button:hover {
       background-color: #f0f0f0; }
 
-.promo-img6 {
-  display: flex;
-  justify-content: center;
-  flex: 1; }
-  .promo-img6 img {
-    max-width: 100%;
-    height: auto;
-    margin-right: 20px;
-    margin-left: 20px; }
+.promo-img6 img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 20px; }
 
 /* SECCION 2 - INICIO */
 .banner-2 {
@@ -159,8 +158,8 @@ body {
   margin-bottom: 15px; }
 
 .productos-destacados .btn-primary {
-  background-color: #5db662;
-  border-color: #5db662;
+  background-color: #5CB660;
+  border-color: #5CB660;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -199,13 +198,9 @@ body {
     .promo-text button:hover {
       background-color: #f0f0f0; }
 
-.promo-img {
-  flex: 1;
-  display: flex;
-  justify-content: center; }
-  .promo-img img {
-    max-width: 100%;
-    height: auto; }
+.promo-img img {
+  max-width: 100%;
+  height: auto; }
 
 /* SECCION 6 - INICIO */
 .collection-section {
@@ -273,15 +268,11 @@ body {
     font-weight: 600;
     line-height: 1.2; }
 
-.promo-img2 {
-  display: flex;
-  justify-content: center;
-  flex: 1; }
-  .promo-img2 img {
-    max-width: 1000px;
-    height: auto;
-    margin-right: 10px;
-    margin-left: 10px; }
+.promo-img2 img {
+  max-width: 1000px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px; }
 
 /*SECCION 2 - PRODUCTOS-1,2,3*/
 .productos_2 {
@@ -328,8 +319,8 @@ body {
   margin-bottom: 15px; }
 
 .product-grid .btn-primary {
-  background-color: #5db662;
-  border-color: #5db662;
+  background-color: #5CB660;
+  border-color: #5CB660;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -378,15 +369,11 @@ body {
     font-weight: 600;
     line-height: 1.2; }
 
-.promo-img3 {
-  display: flex;
-  justify-content: center;
-  flex: 1; }
-  .promo-img3 img {
-    max-width: 100%;
-    height: auto;
-    margin-right: 10px;
-    margin-left: 10px; }
+.promo-img3 img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px; }
 
 /* SECCION 2 - CONTACTO */
 .contact-section {
@@ -412,7 +399,7 @@ body {
   margin-top: 10px;
   display: inline-block;
   padding: 10px 20px;
-  background-color: #5db662;
+  background-color: #5CB660;
   color: white;
   border-radius: 5px;
   text-decoration: none; }
@@ -426,7 +413,7 @@ body {
   margin-top: 20px; }
   .social-icons a {
     font-size: 50px;
-    color: #5db662;
+    color: #5CB660;
     margin: 0 10px; }
     .social-icons a:hover {
       color: #329c37; }
@@ -495,7 +482,7 @@ body {
           display: block;
           margin: 15px auto 0 auto;
           padding: 10px;
-          background-color: #5db662;
+          background-color: #5CB660;
           color: #fff;
           font-size: 1em;
           border: none;
@@ -528,15 +515,11 @@ body {
     font-weight: 600;
     line-height: 1.2; }
 
-.promo-img4 {
-  display: flex;
-  justify-content: center;
-  flex: 1; }
-  .promo-img4 img {
-    max-width: 380px;
-    height: auto;
-    margin-right: 10px;
-    margin-left: 10px; }
+.promo-img4 img {
+  max-width: 380px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px; }
 
 /* SECCION 2 - NOSOTROS */
 .sobre-nosotros {
@@ -607,7 +590,7 @@ body {
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
       border-radius: 8px; }
 
-/* 16 - Estilo Seccion 1 - PAGOS */
+/* SECCION 1 - PAGOS */
 .app-promo5 {
   display: flex;
   justify-content: space-between;
@@ -631,17 +614,13 @@ body {
     font-weight: 600;
     line-height: 1.2; }
 
-.promo-img5 {
-  display: flex;
-  justify-content: center;
-  flex: 1; }
-  .promo-img5 img {
-    max-width: 390px;
-    height: auto;
-    margin-right: 10px;
-    margin-left: 10px; }
+.promo-img5 img {
+  max-width: 390px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px; }
 
-/* 17 - Estilo Seccion 2 - PAGOS */
+/* SECCION 2 - PAGOS */
 .formas-de-pago {
   padding: 50px;
   text-align: center; }
@@ -677,21 +656,21 @@ body {
   .metodo:hover {
     transform: scale(1.05); }
 
-footer {
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
-  background-color: #5cb660;
+  background-color: #5CB660;
   margin-top: 40px; }
-  footer p {
+  .footer p {
     margin: 0;
     color: #ffffff; }
-  footer i {
+  .footer i {
     font-size: 30px;
     margin-left: 20px;
     color: #ffffff; }
-    footer i:hover {
+    .footer i:hover {
       color: #176ced; }
 
 /*SECCION 1 INICIO */
@@ -711,13 +690,24 @@ footer {
   .promo-text6 p {
     font-size: 12px; }
   .promo-text6 button {
-    font-size: 9px; } }
+    font-size: 9px; }
+  .promo-img6 img {
+    max-width: 100px; } }
 
 @media (max-width: 530px) {
   .app-promo6 {
-    flex-direction: column; }
-  .promo-img6 {
-    display: none; } }
+    flex-direction: column;
+    padding: 15px; }
+  .promo-img6 img {
+    margin-top: 20px; }
+  .promo-text6 h2 {
+    font-size: 25px; }
+  .promo-text6 p {
+    font-size: 15px; }
+  .banner-2 .texto-banner-2 h1 {
+    font-size: 26px; }
+  .banner-2 .texto-banner-2 p {
+    font-size: 15px; } }
 
 @media (max-width: 400px) {
   .promo-text6 h2 {
@@ -727,7 +717,14 @@ footer {
     font-size: 10px; }
   .promo-text6 button {
     font-size: 8px;
-    padding: 8px 10px; } }
+    padding: 8px 10px; }
+  .promo-img6 img {
+    margin-top: 15px;
+    max-width: 65px; }
+  .titulo-box h2 {
+    font-size: 20px; }
+  .collection-section h2 {
+    font-size: 20px; } }
 
 /*SECCION 2 INICIO */
 @media (max-width: 1300px) {
@@ -775,6 +772,21 @@ footer {
 @media (max-width: 785px) {
   .productos-destacados {
     max-width: 365px; } }
+
+@media (max-width: 425px) {
+  .productos-destacados {
+    border: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .productos-destacados .card {
+      max-width: 220px; }
+      .productos-destacados .card img {
+        height: 215px; }
+    .productos-destacados .btn-primary {
+      font-size: 15px;
+      padding: 6px 9px; } }
 
 /* SECCION 5 - INICIO */
 @media (max-width: 830px) {
@@ -857,6 +869,23 @@ footer {
     flex-direction: column; }
   .promo-text2 {
     padding: inherit; } }
+
+@media (max-width: 425px) {
+  .productos_2 {
+    border: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .productos_2 .card {
+      max-width: 220px; }
+      .productos_2 .card img {
+        height: 215px; }
+    .productos_2 .btn-primary {
+      font-size: 15px;
+      padding: 6px 9px; }
+  .promo-text2 {
+    max-width: none; } }
 
 /* SECCION 1 - CONTACTO */
 @media (max-width: 1110px) {
@@ -968,3 +997,12 @@ footer {
     flex-direction: column; }
   .promo-img5 img {
     max-width: 255px; } }
+
+/* FOOTER */
+@media (max-width: 590px) {
+  .footer {
+    flex-direction: column; }
+  .icon-footer {
+    margin-top: 10px; }
+    .icon-footer a i {
+      font-size: 25px; } }

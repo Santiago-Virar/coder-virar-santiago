@@ -1,14 +1,6 @@
 /* SECCION 1 - INICIO */
 .app-promo6{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-image: url("../img/stacked-waves-haikei\ \(2\).svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    margin-top: 30px;
+    @include hero;
 }
 .promo-text6{
     max-width: 50%;
@@ -35,9 +27,7 @@
     }
 }
 .promo-img6{
-    display: flex;
-    justify-content: center;
-    flex: 1; 
+    @extend %flex-center;
     img{
         max-width: 100%;
         height: auto;
@@ -144,16 +134,16 @@
     margin-bottom: 15px;
 }
 .productos-destacados .btn-primary{
-    background-color: #5db662;
-    border-color: #5db662;
+    background-color:$color-principal;
+    border-color:$color-principal;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
 }
 .productos-destacados .btn-primary:hover {
-    background-color: #329c37;
-    border-color: #329c37;
+    background-color:$color-secundario;
+    border-color:$color-secundario;
 }
 
 /* SECCION 5 - INICIO */
@@ -191,9 +181,7 @@
 }
 
 .promo-img {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+    @extend %flex-center;
     img {
         max-width: 100%;
         height: auto;
@@ -251,15 +239,7 @@
 
 /*SECCION 1 - PRODUCTOS-1,2,3*/
 .app-promo2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-image: url("../img/stacked-waves-haikei\ \(2\).svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    margin-top: 30px;
+    @include hero;
 }
 .promo-text2{
     max-width: 50%;
@@ -275,9 +255,7 @@
     }
 }
 .promo-img2{
-    display: flex;
-    justify-content: center;
-    flex: 1;
+    @extend %flex-center;
     img{
         max-width: 1000px;
         height: auto;
@@ -332,16 +310,16 @@
     margin-bottom: 15px;
 }
 .product-grid .btn-primary{
-    background-color: #5db662;
-    border-color: #5db662;
+    background-color: $color-principal;
+    border-color: $color-principal;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
 }
 .product-grid .btn-primary:hover{
-    background-color: #329c37;
-    border-color: #329c37;
+    background-color: $color-secundario;
+    border-color: $color-secundario;
 }
 
 /* SECCION 3 - PRODUCTOS-1,2,3*/
@@ -353,8 +331,8 @@
     color: #333333;
 }
 .pagination-lg .page-item.active .page-link{
-    background-color: #329c37; 
-    border-color: #329c37; 
+    background-color: $color-secundario; 
+    border-color: $color-secundario; 
 }
 .pagination{
     display: flex;
@@ -363,15 +341,7 @@
 
 /* SECCION 1 - CONTACTO */
 .app-promo3{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-image: url("../img/stacked-waves-haikei\ \(2\).svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    margin-top: 30px;
+    @include hero;
 }
 .promo-text3{
     max-width: 50%;
@@ -387,9 +357,7 @@
     }
 }
 .promo-img3{
-    display: flex;
-    justify-content: center;
-    flex: 1;
+    @extend %flex-center;
     img{
         max-width: 100%;
         height: auto;
@@ -423,12 +391,12 @@
         margin-top: 10px;
         display: inline-block;
         padding: 10px 20px;
-        background-color: #5db662;
+        background-color: $color-principal;
         color: white;
         border-radius: 5px;
         text-decoration: none;
         &:hover {
-        background-color: #329c37;
+        background-color: $color-secundario;
         }
 }
 .contact-icon {
@@ -438,10 +406,10 @@
         margin-top: 20px;
         a {
         font-size: 50px;
-        color: #5db662;
+        color: $color-principal;
         margin: 0 10px;
         &:hover {
-            color: #329c37;
+            color: $color-secundario;
         }
         }
 }
@@ -517,14 +485,14 @@
             display: block;
             margin: 15px auto 0 auto;
             padding: 10px;
-            background-color: #5db662;
+            background-color:$color-principal;
             color: #fff;
             font-size: 1em;
             border: none;
             border-radius: 4px;
             cursor: pointer;
             &:hover {
-            background-color: #329c37;
+            background-color: $color-secundario;
             }
         }
         }
@@ -534,15 +502,7 @@
 
 /* SECCION 1 - NOSOTROS */
 .app-promo4{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-image: url("../img/stacked-waves-haikei\ \(2\).svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    margin-top: 30px;
+    @include hero;
 }
 .promo-text4{
     max-width: 50%;
@@ -558,9 +518,7 @@
     }
 }
 .promo-img4{
-    display: flex;
-    justify-content: center;
-    flex: 1;
+    @extend %flex-center;
     img{
         max-width: 380px;
         height: auto;
@@ -651,17 +609,9 @@
     }
 }
 
-/* 16 - Estilo Seccion 1 - PAGOS */
+/* SECCION 1 - PAGOS */
 .app-promo5{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-image: url("../img/stacked-waves-haikei\ \(2\).svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    margin-top: 30px;
+    @include hero;
 }
 .promo-text5{
     max-width: 50%;
@@ -677,9 +627,7 @@
     }
 }
 .promo-img5{
-    display: flex;
-    justify-content: center;
-    flex: 1;
+    @extend %flex-center;
     img{
         max-width: 390px;
         height: auto;
@@ -688,7 +636,7 @@
     }
 }
 
-/* 17 - Estilo Seccion 2 - PAGOS */
+/* SECCION 2 - PAGOS */
 .formas-de-pago {
     padding: 50px;
     text-align: center;
